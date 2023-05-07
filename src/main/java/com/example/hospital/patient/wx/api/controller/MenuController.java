@@ -93,22 +93,22 @@ public class MenuController {
         CommonButton btn11 = new CommonButton();
         btn11.setName("智能导诊");
         btn11.setType("view");
-        btn11.setUrl("http://47.108.146.141:3000/home");
+        btn11.setUrl("http://zcloudyun.asia:8096/#/guide");
 
         CommonButton btn12 = new CommonButton();
         btn12.setName("在线挂号");
         btn12.setType("view");
-        btn12.setUrl("http://192.168.205.252:3000/hospital-vue/#/doctor");
+        btn12.setUrl("http://zcloudyun.asia:8096/#/notice");
 
         CommonButton btn13 = new CommonButton();
-        btn13.setName("在线支付");
+        btn13.setName("在线询医");
         btn13.setType("view");
-        btn13.setUrl("http://47.108.146.141:9090/login");
+        btn13.setUrl("http://zcloudyun.asia:8096/#/order_list");
 
         CommonButton btn14 = new CommonButton();
-        btn14.setName("线上就诊");
+        btn14.setName("健康测评");
         btn14.setType("view");
-        btn14.setUrl("http://www.baidu.com");
+        btn14.setUrl("http://zcloudyun.asia:8096/#/home");
 
         CommonButton btn15 = new CommonButton();
         btn15.setName("疾病百科");
@@ -116,44 +116,39 @@ public class MenuController {
         btn15.setUrl("http://www.baidu.com");
 
         CommonButton btn21 = new CommonButton();
-        btn21.setName("预约记录");
+        btn21.setName("我的挂号");
         btn21.setType("view");
-        btn21.setUrl("http://www.baidu.com");
+        btn21.setUrl("http://zcloudyun.asia:8096/#/order");
 
         CommonButton btn22 = new CommonButton();
-        btn22.setName("检查报告");
+        btn22.setName("我的病历");
         btn22.setType("view");
-        btn22.setUrl("http://www.baidu.com");
+        btn22.setUrl("http://zcloudyun.asia:8096/#/record_list");
 
         CommonButton btn23 = new CommonButton();
-        btn23.setName("订单详情");
+        btn23.setName("我的处方");
         btn23.setType("view");
-        btn23.setUrl("http://www.baidu.com");
+        btn23.setUrl("http://zcloudyun.asia:8096/#/prescription_list");
 
         CommonButton btn24 = new CommonButton();
-        btn24.setName("问诊记录");
+        btn24.setName("检查报告");
         btn24.setType("view");
-        btn24.setUrl("http://www.baidu.com");
+        btn24.setUrl("http://zcloudyun.asia:8096/#/inspect_list");
 
         CommonButton btn25 = new CommonButton();
-        btn25.setName("电子处方");
+        btn25.setName("评价列表");
         btn25.setType("view");
-        btn25.setUrl("http://www.baidu.com");
+        btn25.setUrl("http://zcloudyun.asia:8096/#/evaluate_list");
 
         CommonButton btn31 = new CommonButton();
         btn31.setName("个人主页");
         btn31.setType("view");
-        btn31.setUrl("http://www.baidu.com");
+        btn31.setUrl("http://zcloudyun.asia:8096/#/");
 
         CommonButton btn32 = new CommonButton();
         btn32.setName("实名绑卡");
         btn32.setType("view");
-        btn32.setUrl("http://www.baidu.com");
-
-        CommonButton btn33 = new CommonButton();
-        btn33.setName("电子票据");
-        btn33.setType("view");
-        btn33.setUrl("http://www.baidu.com");
+        btn32.setUrl("http://zcloudyun.asia:8096/#/user_info");
 
         ComplexButton mainBtn1 = new ComplexButton();
         mainBtn1.setName("智慧医疗");
@@ -165,7 +160,7 @@ public class MenuController {
 
         ComplexButton mainBtn3 = new ComplexButton();
         mainBtn3.setName("个人中心");
-        mainBtn3.setSub_button(new CommonButton[] { btn31,btn32,btn33 });
+        mainBtn3.setSub_button(new CommonButton[] { btn31,btn32 });
 
         /**
          * 这是公众号目前的菜单结构，每个一级菜单都有二级菜单项<br>
